@@ -23,6 +23,7 @@ body {
       height: 100%;
       object-fit: cover;
       z-index: -1;
+      filter: brightness(80%);
 }
 
 .imageTexts {
@@ -33,14 +34,32 @@ body {
       right: 0;
       padding: 0% 15% 20%;
       background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+      display: none;
 }
 
 .name {
-      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 0px;
+      width: 100%;
       text-transform: uppercase;
+      text-overflow:clip;
+      /* display: none; */
 }
 
 .location {
-      color: grey;
-      font-size: 0.9em;
+      font-size: 12px;
+      text-transform: capitalize;
+}
+.textDescription {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+}
+
+
+@media (min-width: 768px) {
+      .imageTexts {
+            display: block;
+      }   
 }
