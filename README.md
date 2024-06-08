@@ -9,7 +9,7 @@
 ## What You'll Find Here
 
 ### . Interactive Photo Gallery: Check out the index.html file and its companion CSS (styles.css) and JavaScript (script.js) files to see the photo gallery come to life. I focused on responsiveness, Figma design accuracy, hover interactions, and cross-browser compatibility.
-### . oding Challenges: Dive into the Challenges folder to see my solutions for the two JavaScript coding challenges.
+### . Coding Challenges: Dive into the Challenges folder to see my solutions for the two JavaScript coding challenges.
 #### . arrayMap.js: This file tackles the problem of finding a contiguous subarray that adds up to a specific target sum within a given array.
 #### . stringTransform.js: Here, I implemented a function that transforms a string based on its divisibility by 3, 5, or 15.
 ### . README (You're Here!): This file provides an overview of the project, including instructions and how-tos.
