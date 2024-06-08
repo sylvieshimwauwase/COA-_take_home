@@ -56,7 +56,15 @@ body {
       justify-content: center;
       width: 100%;
 }
-
+ .btn-primary {
+      font-size: 14px;
+      text-transform: capitalize;
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      color: rgb(12, 130, 156);
+ }
 
 @media (min-width: 768px) {
       .imageTexts {

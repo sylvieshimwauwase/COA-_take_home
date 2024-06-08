@@ -1,13 +1,13 @@
-const sections = document.querySelectorAll('.section');
+const effect = document.querySelectorAll('.section');
 
-sections.forEach((section) => {
+effect.forEach((section) => {
       const image = section.querySelector('.image');
       const textDescription = section.querySelector('.textDescription');
-      const imageTexts = section.querySelector('.imageText');
+      const imageTexts = section.querySelector('.imageTexts');
       const button = document.createElement('button');
       button.classList.add('btn-primary');
       button.innerHTML = 'Know more';
-      button.appendChild(button);
+      imageTexts.appendChild(button);
 
       // setting button invisible by default
       button.style.display = 'none';
