@@ -4,7 +4,7 @@ function transformString(str) {
       if (length % 15 === 0) {
             // Reverse the entire string
             str = str.split('').reverse().join('');
-            // Replace each character with its ASCII code
+            // Replacing each character with its ASCII code
             str = str.split('').map(char => char.charCodeAt(0)).join(' ');
       } else if (length % 3 === 0) {
             // Reverse the entire string
