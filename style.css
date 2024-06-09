@@ -1,4 +1,6 @@
 body {
+      margin: 0;
+      padding: 0;
       background-color: black;
       color: white;
       display: flex;
@@ -6,6 +8,7 @@ body {
       align-items: center;
       min-height: 100vh;
       gap: 2px;
+      font-family: 'Poppins', sans-serif;
 }
 
 .section {
@@ -38,16 +41,17 @@ body {
 }
 
 .name {
-      font-size: 20px;
+      font-size: 24px;
       margin-bottom: 0px;
       width: 100%;
       text-transform: uppercase;
       text-overflow:clip;
+      font-weight: bold;
       /* display: none; */
 }
 
 .location {
-      font-size: 12px;
+      font-size: 14px;
       text-transform: capitalize;
 }
 .textDescription {
@@ -57,7 +61,7 @@ body {
       width: 100%;
 }
  .btn-primary {
-      font-size: 14px;
+      font-size: 16px;
       text-transform: capitalize;
       background-color: transparent;
       border: none;
