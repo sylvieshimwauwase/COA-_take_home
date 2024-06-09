@@ -7,12 +7,7 @@ effect.forEach((section) => {
   const element = document.createElement('element');
   element.classList.add('btn-primary');
 
-  // More cryptic element text
-  element.textContent = (function() {
-    const options = ['Know More'];
-    return options[Math.floor(Math.random() * options.length)];
-  })();
-
+  element.innerHTML = 'Know more &#129130;';
   imageTexts.appendChild(element);
 
   // Hide element initially with opacity
